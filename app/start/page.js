@@ -75,17 +75,10 @@ export default function Home() {
 
                 <div className="space-y-2 sm:space-y-3 w-full">
                   <Link
-                    href="/formx1"
-                    className="w-full py-2.5 sm:py-3 px-4 bg-[#37404A] hover:bg-[#37404A]/90 text-white rounded flex items-center justify-center transition-colors text-sm sm:text-base"
-                  >
-                    <span>FormX1 Demo</span>
-                  </Link>
-
-                  <Link
-                    href="/formx4"
+                    href="/demo-form"
                     className="w-full py-2.5 sm:py-3 px-4 bg-[#37404A]/80 hover:bg-[#37404A] text-white rounded flex items-center justify-center transition-colors text-sm sm:text-base"
                   >
-                    <span>FormX4 Demo</span>
+                    <span>Demo Form</span>
                   </Link>
 
                   <Link
