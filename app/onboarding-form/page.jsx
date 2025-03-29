@@ -14,7 +14,7 @@ import { ChevronRight, ChevronUp, ChevronDown } from "lucide-react";
 import FormInactive from "../components/FormInactive";
 
 export default function OnboardingForm() {
-  const router = useRouter();
+  const _router = useRouter();
   const [step, setStep] = useState(0);
   const [formData, setFormData] = useState({
     fullName: "",
@@ -873,7 +873,7 @@ export default function OnboardingForm() {
               </p>
 
               <p className="text-[18px] leading-[28px] text-[#37404AB3]">
-                We're excited to have you join us on this learning journey.
+                We&apos;re excited to have you join us on this learning journey.
               </p>
             </motion.div>
           </div>
